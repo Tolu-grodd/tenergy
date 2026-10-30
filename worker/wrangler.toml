@@ -1,0 +1,20 @@
+name = "home-energy-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[triggers]
+crons = ["*/2 * * * *", "1-59/2 * * * *", "0-58/2 * * * *", "2-58/2 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "home-energy"
+database_id = "5398b6a3-4c7f-4790-adbd-09e2e4c71aab"
+
+[vars]
+FIREBASE_PROJECT = "home-energy-n0u5x"
+ALLOWED_EMAILS = "adeleketoluwanimi@gmail.com"
+ALLOWED_ORIGINS = "https://home-energy-n0u5x.web.app,https://home-energy-n0u5x.firebaseapp.com"
+TUYA_BASE_URL = "https://openapi.tuyaeu.com"
+
+# Secrets (set with `wrangler secret put`): TUYA_ACCESS_ID, TUYA_ACCESS_SECRET, INGEST_KEY
+

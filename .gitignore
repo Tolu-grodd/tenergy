@@ -1,0 +1,31 @@
+node_modules
+.env
+agent/.env
+worker/.dev.vars
+worker/.wrangler
+process/data
+agent/data
+agent/devices.json
+agent/node_modules
+process/dist
+
+# Firebase / Cloudflare local state
+.firebase
+worker/.wrangler
+
+# Android build output and local-only files
+android/build
+android/app/build
+android/.gradle
+android/.kotlin
+android/local.properties
+android/keystore.properties
+*.keystore
+*.jks
+*.apk
+
+# Photos from the camera reader and other local captures
+agent/last-photo.jpg
+agent/last-*.jpg
+.dev.vars
+.DS_Store

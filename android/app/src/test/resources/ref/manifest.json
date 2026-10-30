@@ -1,0 +1,96 @@
+{
+  "note": "Reference photos for testing the display reader (agent/segments.js). value = what the tank shows; rotate = degrees to turn the file upright; grid = state of the red socket light at that time (null = unknown/different mounting).",
+  "photos": [
+    {
+      "file": "v87-grid-off.jpg",
+      "rotate": 270,
+      "value": 87,
+      "grid": "off"
+    },
+    {
+      "file": "v88-grid-off.jpg",
+      "rotate": 270,
+      "value": 88,
+      "grid": "off"
+    },
+    {
+      "file": "v97-grid-on.jpg",
+      "rotate": 0,
+      "value": 97,
+      "grid": "on"
+    },
+    {
+      "file": "v98-grid-on.jpg",
+      "rotate": 270,
+      "value": 98,
+      "grid": "on"
+    },
+    {
+      "file": "v99-grid-on.jpg",
+      "rotate": 270,
+      "value": 99,
+      "grid": "on"
+    },
+    {
+      "file": "v99b-grid-on.jpg",
+      "rotate": 270,
+      "value": 99,
+      "grid": "on"
+    },
+    {
+      "file": "v100.jpg",
+      "rotate": 270,
+      "value": 100,
+      "grid": null
+    },
+    {
+      "file": "v100b.jpg",
+      "rotate": 270,
+      "value": 100,
+      "grid": null
+    },
+    {
+      "file": "v77-grid-off.jpg",
+      "rotate": 0,
+      "value": 77,
+      "grid": "off"
+    },
+    {
+      "file": "v82-grid-off.jpg",
+      "rotate": 270,
+      "value": 82,
+      "grid": "off"
+    },
+    {
+      "file": "v100-afternoon-glare.jpg",
+      "rotate": 0,
+      "value": 100,
+      "grid": null,
+      "note": "daylight made the leading 1 look unclear; a 3 degree counter-tilt then merged it with the next 0 and read 0 (fixed)"
+    },
+    {
+      "file": "v11-charging-icon.jpg",
+      "rotate": 0,
+      "value": 11,
+      "grid": null
+    },
+    {
+      "file": "v11b-charging-icon.jpg",
+      "rotate": 0,
+      "value": 11,
+      "grid": null
+    },
+    {
+      "file": "hub-torch-40.jpg",
+      "rotate": 270,
+      "value": 40,
+      "grid": null
+    },
+    {
+      "file": "hub-far-74.jpg",
+      "rotate": 0,
+      "value": 74,
+      "grid": "off"
+    }
+  ]
+}

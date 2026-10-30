@@ -1,0 +1,19 @@
+{
+  "name": "solar-monitor",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "devices": "node --env-file=.env process/list.js",
+    "agent": "node --env-file=agent/.env agent/agent.js",
+    "local-keys": "node --env-file=.env process/local-keys.js",
+    "local-test": "node agent/local-test.js",
+    "worker:dev": "wrangler dev --local --port 8799 --test-scheduled --config worker/wrangler.toml",
+    "worker:deploy": "wrangler deploy --config worker/wrangler.toml",
+    "deploy": "firebase deploy",
+    "test": "node worker/phase.test.mjs && node worker/vote.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
+  }
+}
